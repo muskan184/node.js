@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>profile page</title>
+  </head>
+  <body>
+    <h1>this is profile page</h1>
+
+    <h2>welcome <%=user.name %></h2>
+    <h2>your email id is <%=user.email %></h2>
+    <h2>city: <%=user.city %></h2>
+
+    <!-- for itrator multiple object -->
+    <ul>
+      <% user.skills.forEach((item)=>{%>
+      <li><%= item %></li>
+      <%})%>
+    </ul>
+    <!-- yeh hum html_pages ke user object se le rhe h   -->
+  </body>
+</html>
+
+<!--  ye dynamic page h but hum abhi data base se connect ngi h toh baad me deklhege  -->
+
+<!-- common data bnnane ke liye humare pass 2-3 pages hone chahiye 
+  is liye hun or pages add karenge like login -->

@@ -1,0 +1,19 @@
+{
+  "name": "node",
+  "version": "1.0.0",
+  "description": "this is node js practice section",
+  "main": "style.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "muskan",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "color": "^4.2.3",
+    "colors": "^1.4.0",
+    "ejs": "^3.1.10",
+    "express": "^4.21.0",
+    "mongodb": "^6.10.0"
+  }
+}

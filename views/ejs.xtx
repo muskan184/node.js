@@ -1,0 +1,6 @@
+ejs page ko dynamic bnnane ke liye use hote hote
+
+static page : jb hume jaise page humne set kiya h waise hi rakhna ho database se koi intrection nhi karna ho 
+dynamic page : dynamic page database ke sath intraction karti hi
+
+hum jb template engine ka use karte h toh (((views))) template ka use karte h 
